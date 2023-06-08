@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './warning-alert.component.html',
   styleUrls: ['./warning-alert.component.css'],
 })
-export class AppWarningAlert {
+export class WarningAlert {
   constructor() { }
 
   public message: string = 'Invalid number';

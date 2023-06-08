@@ -1,20 +1,22 @@
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppWarningAlert } from './01 - Components/warning-alert/warning-alert.component';
+import { WarningAlert } from './01 - Components/warning-alert/warning-alert.component';
 
 import { AppComponent } from './app.component';
 import { TurnGreenDirective } from './TurnGreen/turn-green.directive';
-import { AppSuccessAlertComponent } from './01 - Components/success-alert/success-alert.component';
-import { AppFormComponent } from './02 - Databinding/form/form.component';
+import { SuccessAlertComponent } from './01 - Components/success-alert/success-alert.component';
+import { FormComponent } from './02 - Databinding/form/form.component';
+import { ButtonLogsComponent } from './03 - Directives/button-logs/button-logs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TurnGreenDirective,
-    AppWarningAlert,
-    AppSuccessAlertComponent,
-    AppFormComponent,
+    WarningAlert,
+    SuccessAlertComponent,
+    FormComponent,
+    ButtonLogsComponent,
   ],
   imports: [
     BrowserModule,

@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './form.component.html',
   styleUrls: ['./form.component.css']
 })
-export class AppFormComponent {
+export class FormComponent {
   public username: string = '';
   public highlight: boolean = false;
   public buttonDisabled: boolean = true;

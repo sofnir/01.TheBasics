@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './success-alert.component.html',
   styleUrls: ['./success-alert.component.css']
 })
-export class AppSuccessAlertComponent {
+export class SuccessAlertComponent {
   constructor() { }
 
   public message: string = 'Correct number';
