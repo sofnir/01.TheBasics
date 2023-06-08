@@ -5,14 +5,16 @@ import { AppWarningAlert } from './01 - Components/warning-alert/warning-alert.c
 
 import { AppComponent } from './app.component';
 import { TurnGreenDirective } from './TurnGreen/turn-green.directive';
-import { SuccessAlertComponent } from './01 - Components/success-alert/success-alert.component';
+import { AppSuccessAlertComponent } from './01 - Components/success-alert/success-alert.component';
+import { AppFormComponent } from './02 - Databinding/form/form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TurnGreenDirective,
     AppWarningAlert,
-    SuccessAlertComponent,
+    AppSuccessAlertComponent,
+    AppFormComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,10 @@
+<div style="display: flex; align-items: center; height: 40px;">
+  <label [class.highlight]="highlight" style="margin-right: 4px;">Username:</label>
+  <p>{{ username }}</p>
+</div>
+
+<input type="text" [(ngModel)]="username" (keyup)="updateButtonDisabled($event)">
+
+<div style="margin-top: 10px">
+  <button [disabled]="buttonDisabled" (click)="resetUsername()">Reset</button>
+</div>

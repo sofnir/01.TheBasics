@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AppSuccessAlertComponent } from './success-alert.component';
+import { AppFormComponent } from './form.component';
 
-describe('SuccessAlertComponent', () => {
-  let component: AppSuccessAlertComponent;
-  let fixture: ComponentFixture<AppSuccessAlertComponent>;
+describe('FormComponent', () => {
+  let component: AppFormComponent;
+  let fixture: ComponentFixture<AppFormComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AppSuccessAlertComponent ]
+      declarations: [ AppFormComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(AppSuccessAlertComponent);
+    fixture = TestBed.createComponent(AppFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
