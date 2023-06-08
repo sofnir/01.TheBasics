@@ -1,0 +1,10 @@
+.warning-message {
+  width: 120px;
+  padding: 10px;
+  text-align: center;
+  background-color: #FEE;
+  border: 1px solid #EDD;
+  border-radius: 5px;
+  color: #A66;
+  cursor: pointer;
+}

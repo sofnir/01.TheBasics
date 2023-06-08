@@ -1,4 +1,4 @@
-<p appTurnGreen [color]="'yellow'">Hello World</p>
+<!-- <p appTurnGreen [color]="'yellow'">Hello World</p>
 
 <p *ngIf="isAdmin; else noAdmin">
   admin
@@ -9,4 +9,9 @@
 
 <button (click)="toggleAdmin()" [ngStyle]="{backgroundColor: 'red'}">toggle admin</button>
 
-<div><input (keyup)="onInput($event)" [(ngModel)]="name"></div>
+<div><input (keyup)="onInput($event)" [(ngModel)]="name"></div> -->
+
+<div style="display: flex;">
+  <app-warning-alert style="margin-right: 20px;"></app-warning-alert>
+  <app-success-alert></app-success-alert>
+</div>
