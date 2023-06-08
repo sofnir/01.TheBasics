@@ -1,1 +1,12 @@
-<p>button-logs works!</p>
+<button (click)="togglePasswordShowing()">Details</button>
+<p>Secret Password:</p>
+<div style="height: 40px; justify-content: center;">
+<p *ngIf="!showPassword; else password">*****</p>
+<ng-template #password>Korea</ng-template>
+</div>
+<div *ngFor="let log of logs; let i = index">
+  <p
+    [ngStyle]="{backgroundColor: i > 3 && '#7CB9E8'}"
+    [ngClass]="{'white-log': i > 3}">
+    {{log}}</p>
+</div>
