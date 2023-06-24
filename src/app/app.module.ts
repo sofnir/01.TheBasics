@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { WarningAlert } from './01 - Components/warning-alert/warning-alert.component';
 
 import { AppComponent } from './app.component';
-import { TurnGreenDirective } from './TurnGreen/turn-green.directive';
+import { HighlightDirective } from './Highlight/highlight.directive';
 import { SuccessAlertComponent } from './01 - Components/success-alert/success-alert.component';
 import { FormComponent } from './02 - Databinding/form/form.component';
 import { ButtonLogsComponent } from './03 - Directives/button-logs/button-logs.component';
@@ -12,7 +12,7 @@ import { ButtonLogsComponent } from './03 - Directives/button-logs/button-logs.c
 @NgModule({
   declarations: [
     AppComponent,
-    TurnGreenDirective,
+    HighlightDirective,
     WarningAlert,
     SuccessAlertComponent,
     FormComponent,
